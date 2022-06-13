@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+
+}
+.container{
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(skt.jpg);
+	background-position: center;
+	background-size: cover;
+	padding-left: 8%;
+	padding-right: 8%;
+	box-sizing: border-box;
+}
+.navbar{
+	height: 12%;
+	display: flex;
+	align-items: center;
+}
+.logo{
+	width: 50px;
+	cursor: pointer;
+
+}
+.menu-icon{
+	width: 30px;
+	cursor: pointer;
+	margin:40px;
+}
+nav{
+	flex: 1;
+	text-align: right;
+}
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 60px;
+}
+nav ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 25px;
+	font-weight: 600;
+}
+.row{
+	display: flex;
+	height: 88%;
+	align-items: center;
+}
+.col{
+	flex-basis: 50%;
+}
+h2{
+	color: #fff;
+	font-size: 60px;
+}
+p{
+	color: #fff;
+	font-size: 16px;
+	line-height: 15px;
+}
+button{
+	width: 180px;
+	color: #000;
+	font-size: 15px;
+	padding: 12px 0;
+	background: #fff;
+	border: 0;
+	border-radius: 20px;
+	outline: none;
+	margin-top: 30px;
+	cursor: pointer;
+	font-weight: 600;
+}
+.button {
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+
+}
+
+.button:hover {
+  background-color: #555555;
+  color: white;
+}
+button a{
+	text-decoration: none;
+	list-style: none;
+	color: #000;
+
+}
+
+.card{
+	width: 200px;
+	height: 230px;
+	display: inline-block;
+	border-radius: 10px;
+	padding: 15px 25px;
+	box-sizing: border-box;
+	cursor: pointer;
+	margin: 10px 15px;
+	background-image: url(trophy.png);
+	background-position: center;
+	background-size: cover;
+	transition: transform 0.5s;
+}
+.card1{
+	background-image: url(faker.jpg);
+}
+.card2{
+	background-image: url(champs.jpg);
+}
+.card3{
+	background-image: url(montage.jpg);
+}
+
+.card:hover{
+	transform: translateY(-10px);
+}
+h3{
+	color: white;
+	text-shadow: 0 0 5px black;
+}
+.card p{
+	text-shadow: 0 0 15px #000;
+	font-size: 8px;
+}

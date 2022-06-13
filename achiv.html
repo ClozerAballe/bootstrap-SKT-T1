@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ACHIEVEMENTS</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+		@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Raleway:wght@300;400;500;600;700;800&display=swap');
+		*{
+			margin:0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		body{
+			height: 100vh;
+			font-family: "Raleway", sans-serif;
+			background: #2F3238;
+			background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(worlds.png);
+
+		}
+		.container{
+			margin:30px;
+		}
+		.row{
+			width: 100%;
+			display: flex;
+			justify-content: center;
+			flex-wrap: wrap;
+		}
+		.image{
+			background: #50A7FF;
+			position: relative;
+			flex: 1;
+			max-width: 460px;
+			height: 300px;
+			margin: 20px;
+		}
+		.image img{
+			opacity: 0.8;
+			position: relative;
+			vertical-align: top;
+			transition: 0.6s;
+			transition-property: opacity;
+		}
+		.image:hover img{
+			opacity: 1;
+		}
+		.image .details{
+			z-index: 1;
+			position: absolute; 
+			top: 0;
+			right:0;
+			color: #fff;
+			width: 100%;
+			height: 100%;
+		}
+		.image .details h2{
+			text-align: center;
+			font-size: 35px;
+			text-transform: uppercase;
+			font-weight: 500;
+			margin-top: 40px;
+			transition: 0.4s;
+			transition-property: transform;
+			color: black;
+		}
+		.image .details h2 span{
+			font-weight: 900;
+			color: red;
+		}
+		.image:hover .details h2{
+			transform: translateY(-30px);
+
+		}
+		.image .details p{
+			margin: 30px 30px 0 30px;
+			font-size: 18px;
+			font-weight: 600;
+			text-align: center;
+			opacity: 0;
+			 transition: 0.6s;
+			 transition-property: opacity, transform;
+			 color: #fff;
+		}
+		.image:hover .details p{
+			opacity: 1;
+			transform: translateY(-40px);
+		}
+		.more{
+			position: absolute;
+			background: rgba(255, 255, 255, 0.8);
+			width: 100%;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			padding: 15px;
+			
+			transition-property: bottom;
+			opacity: 0;
+
+		}
+		.image:hover .more{
+			bottom: 0;
+			opacity: 1;
+		}
+		.more .read-more{
+			color: #000;
+			text-decoration: none;
+			font-size: 20px;
+			font-weight: 500;
+			text-transform: uppercase;
+		}
+		.more .read-more span{
+			font-weight: 900;
+		}
+		.more .icon-links i{
+			color: #000;
+			font-size: 20px;
+		}
+		.more .icon-links a:not(last-child) i{
+			margin-right: 20px;
+
+		}
+		button{
+	width: 180px;
+	color: #000;
+	font-size: 30px;
+	padding: 10px 0;
+	background: #fff;
+	border: 0;
+	border-radius: 20px;
+	outline: none;
+	margin-top: 30px;
+	cursor: pointer;
+	font-weight: 600;
+
+}
+		.button {
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+}
+
+.button:hover {
+  background-color: #555555;
+  color: white;
+}
+button a{
+	text-decoration: none;
+	list-style: none;
+	color: #000;
+
+}
+
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="image">
+				<img src="2013.jpg" height="300" width="460">
+				<div class="details">
+					<h2><span>WORLDS</span>2013</h2>
+					<p>The grand final was held in the Staples Center on 4 October 2013, where Korean team SK Telecom T1 defeated the Chinese team Royal Club, granting them the title of the Season 3 world champions, the Summoner's Cup and the $1 million prize.</p>
+					<div class="more">
+						<a href="" class="read-more"><span>SKT </span>vs RYL</a>
+						<div class="icon-links">
+							<a href=""><i class="fas fa-heart"></i></a>
+							<a href=""><i class="fas fa-eye"></i></a>
+							<a href=""><i class="fas fa-paperclip"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="image">
+				<img src="2015.jpg" height="300" width="460">
+				<div class="details">
+					<h2><span>WORLDS</span>2015</h2>
+					<p>SK Telecom T1 has won the Season 5 League of Legends World Championship, defeating Korean rivals KOO Tigers 3-1 in the finals on Saturday.
+
+SKT won the first game easily, with strong performances all around. MaRin and Bang combined to go 17/0/19, and Wolf had 19 assists on 20 team kills. Game 2 was much closer, with KOO holding a small advantage for most of the early to mid-game.</p>
+					<div class="more">
+						<a href="" class="read-more"><span>SKT </span>vs KOO Tigers</a>
+						<div class="icon-links">
+							<a href=""><i class="fas fa-heart"></i></a>
+							<a href=""><i class="fas fa-eye"></i></a>
+							<a href=""><i class="fas fa-paperclip"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="image">
+				<img src="msi.jpg" height="300" width="460">
+				<div class="details">
+					<h2><span>MSI</span>2016</h2>
+					<p>SK Telecom T1 from South Korea won their first MSI title after defeating Counter Logic Gaming from North America 3–0 in the final.</p>
+					<div class="more">
+						<a href="" class="read-more"><span>SKT </span>vs CLG</a>
+						<div class="icon-links">
+							<a href=""><i class="fas fa-heart"></i></a>
+							<a href=""><i class="fas fa-eye"></i></a>
+							<a href=""><i class="fas fa-paperclip"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="image">
+				<img src="skt.jpg" height="300" width="460">
+				<div class="details">
+					<h2><span>WORLDS</span>2016</h2>
+					<p>SK Telecom T1 defended their title from the 2015 League of Legends World Championship by defeating runner-up Samsung Galaxy 3–2 in a best of five final series. With their win, SKT became the first three-time League of Legends world champion. SKT's Lee "Faker" Sang-hyeok was named MVP of the tournament.</p>
+					<div class="more">
+						<a href="" class="read-more"><span>SKT </span>vs SSG</a>
+						<div class="icon-links">
+							<a href=""><i class="fas fa-heart"></i></a>
+							<a href=""><i class="fas fa-eye"></i></a>
+							<a href=""><i class="fas fa-paperclip"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="image">
+				<img src="2017.jpg" height="300" width="460">
+				<div class="details">
+					<h2><span>MSI</span>2017</h2>
+					<p>SK Telecom T1 from South Korea defended successfully their championship in last year after defeating G2 Esports from Europe 3–1 at the final.</p>
+					<div class="more">
+						<a href="" class="read-more"><span>SKT </span>vs G2</a>
+						<div class="icon-links">
+							<a href=""><i class="fas fa-heart"></i></a>
+							<a href=""><i class="fas fa-eye"></i></a>
+							<a href=""><i class="fas fa-paperclip"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	<center><a href="index.html"><button class="button button5">Back</button></a></center>
+</body>
+</html>
